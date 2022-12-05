@@ -1,9 +1,9 @@
 
 import { motion } from "framer-motion"
-// Import Swiper React components
+// Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, A11y } from 'swiper';
-// Import Swiper styles
+// Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -17,7 +17,6 @@ import { IoClose } from "react-icons/io5"
 const ProjectModal = ({ setModalType, modalData }) => {
     const { lockScroll, unlockScroll } = useScrollLock();
 
-
     useEffect(() => {
         lockScroll()
 
@@ -30,7 +29,7 @@ const ProjectModal = ({ setModalType, modalData }) => {
         <div className='modal-container' onClick={() => setModalType(null)} >
             <IoClose className="modal-close-btn" />
             <div className="project-modal" onClick={(e) => e.stopPropagation()}>
-                <motion.h2 className="modal-h2" initial={{ opacity: 0, y: 100, scale: 0 }} animate={{ opacity: 1, y: 0, scale: 1 }} transition={{ duration: 1 }}> Social Media App</motion.h2>
+                <motion.h2 className="modal-h2" initial={{ opacity: 0, y: 100, scale: 0 }} animate={{ opacity: 1, y: 0, scale: 1 }} transition={{ duration: 1 }}>{modalData.text}</motion.h2>
                 <motion.div className="slider-wrapper" initial={{ opacity: 0, y: 100, scale: 0 }} animate={{ opacity: 1, y: 0, scale: 1 }} transition={{ duration: 1 }} >
                     <Swiper
                         className="swiper"
@@ -42,8 +41,8 @@ const ProjectModal = ({ setModalType, modalData }) => {
                     >
                         {
                             modalData.img.map((item, i) => (
-                                <SwiperSlide className="slide">
-                                    <motion.img src={item} key={i} alt="project img" className="project-slider-img" />
+                                <SwiperSlide className="slide" key={i}>
+                                    <motion.img src={item} alt="project img" className="project-slider-img" />
                                 </SwiperSlide>
                             ))
                         }

@@ -32,7 +32,7 @@ const Projects = ({ setModalType, setModalData }) => {
         }
 
     }, [inView, animationsProject, animationsTitle])
-    console.log(inView);
+
     return (
         <motion.div className="projects-container" id="projects" >
             <motion.h2 initial={{ scale: 0 }} animate={animationsTitle} className="projects-h2">Projects</motion.h2>

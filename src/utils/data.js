@@ -1,4 +1,4 @@
-
+// static data
 const navLinks = [
     {
         text: "Home",
@@ -22,11 +22,11 @@ const projects = [
         text: "Social Media App",
         desc: "An application with most features of social media applications",
         img: [
-            "https://firebasestorage.googleapis.com/v0/b/social-media-v2-19789.appspot.com/o/social1.png?alt=media&token=3a5bdfb6-ef13-4c24-9dea-7c7ffc830dd2",
-            "https://firebasestorage.googleapis.com/v0/b/social-media-v2-19789.appspot.com/o/social2.png?alt=media&token=5229eaa2-ec30-4940-80bd-71b20bc4523a",
-            "https://firebasestorage.googleapis.com/v0/b/social-media-v2-19789.appspot.com/o/social3.png?alt=media&token=b100030a-1cf9-441b-b52f-b42e016f182e",
-            "https://firebasestorage.googleapis.com/v0/b/social-media-v2-19789.appspot.com/o/social4.png?alt=media&token=de174120-7a66-484a-ac55-1547294d3e95",
-            "https://firebasestorage.googleapis.com/v0/b/social-media-v2-19789.appspot.com/o/social5.png?alt=media&token=e83ef680-1952-4107-aaf8-c40b57c49773"
+            "https://firebasestorage.googleapis.com/v0/b/portfolio-2e4cb.appspot.com/o/social1.png?alt=media&token=88434368-bdaa-4adf-9270-480861625e90",
+            "https://firebasestorage.googleapis.com/v0/b/portfolio-2e4cb.appspot.com/o/social2.png?alt=media&token=28151480-f0dc-4a2d-bb1d-c00540c0f811",
+            "https://firebasestorage.googleapis.com/v0/b/portfolio-2e4cb.appspot.com/o/social3.png?alt=media&token=2a6b40d0-71d5-4e41-9c3a-101af433d9e4",
+            "https://firebasestorage.googleapis.com/v0/b/portfolio-2e4cb.appspot.com/o/social4.png?alt=media&token=c9ce3319-ea0d-4c55-86ee-3f70ca3ed0b7",
+            "https://firebasestorage.googleapis.com/v0/b/portfolio-2e4cb.appspot.com/o/social5.png?alt=media&token=a0e9f5d2-9a02-401e-83c0-156f81a0b908"
         ],
         source: "https://github.com/asag89/mern-social-media-app-",
         live: "https://ankrom-social-media.onrender.com/",
@@ -34,7 +34,7 @@ const projects = [
     }, {
         text: "Blog App",
         desc: "Mern-stack blog app. Users can be login, register, CRUD operations...",
-        img: ["https://firebasestorage.googleapis.com/v0/b/social-media-v2-19789.appspot.com/o/blog.png?alt=media&token=3cf48b44-846f-4bc8-baab-8eed1a43cae3"],
+        img: ["https://firebasestorage.googleapis.com/v0/b/portfolio-2e4cb.appspot.com/o/blog.png?alt=media&token=cb5960b7-1bb6-4a45-8bce-207535b63139"],
         source: "https://github.com/asag89/mern-stack-blog-app-react-node-express-mongodb-",
         id: 2
     },
@@ -42,8 +42,8 @@ const projects = [
         text: "Wordle Clone",
         desc: "Just Wordle clone :)",
         img: [
-            "https://firebasestorage.googleapis.com/v0/b/social-media-v2-19789.appspot.com/o/wordle1.png?alt=media&token=4d438e22-a2e8-42a2-8bd5-087ad63ae546",
-            "https://firebasestorage.googleapis.com/v0/b/social-media-v2-19789.appspot.com/o/wordle2.png?alt=media&token=070dcea0-7cc6-443d-a18d-034501cc865c"
+            "https://firebasestorage.googleapis.com/v0/b/portfolio-2e4cb.appspot.com/o/wordle1.png?alt=media&token=5136683a-eb6b-478c-93a3-deab895498e8",
+            "https://firebasestorage.googleapis.com/v0/b/portfolio-2e4cb.appspot.com/o/wordle2.png?alt=media&token=2a01ffb3-ad32-489f-898f-3449c61565fb"
         ],
         source: "https://github.com/asag89/wordle-clone",
         live: "https://word-lee.netlify.app/",
@@ -88,7 +88,7 @@ const skills = [
             },
             {
                 title: "Age Calculator App",
-                id: 1,
+                id: 2,
                 source: "https://github.com/asag89/age-calculator-with-all-time-units-",
                 live: ""
             }
@@ -131,14 +131,14 @@ const skills = [
             },
             {
                 title: "Blog App",
-                id: 1,
+                id: 2,
                 source: "https://github.com/asag89/mern-stack-blog-app-react-node-express-mongodb-",
                 live: ""
             }
         ]
     },
     {
-        tech: "MongoDB",
+        tech: "Express",
         id: 5,
         projects: [
             {
@@ -149,14 +149,32 @@ const skills = [
             },
             {
                 title: "Blog App",
+                id: 2,
+                source: "https://github.com/asag89/mern-stack-blog-app-react-node-express-mongodb-",
+                live: ""
+            }
+        ]
+    },
+    {
+        tech: "MongoDB",
+        id: 6,
+        projects: [
+            {
+                title: "Social Media App",
                 id: 1,
+                source: "https://github.com/asag89/mern-social-media-app-",
+                live: "https://ankrom-social-media.onrender.com/"
+            },
+            {
+                title: "Blog App",
+                id: 2,
                 source: "https://github.com/asag89/mern-stack-blog-app-react-node-express-mongodb-",
                 live: ""
             }
         ]
     }, {
         tech: "Firebase",
-        id: 6,
+        id: 7,
         projects: [
             {
                 title: "Real Estate App",
@@ -167,7 +185,7 @@ const skills = [
         ]
     }, {
         tech: "Git",
-        id: 7,
+        id: 8,
         projects: [
             {
                 title: "All projects",

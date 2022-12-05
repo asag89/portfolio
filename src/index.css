@@ -85,7 +85,6 @@ button {
 }
 
 
-
 /* banner *************************************************** */
 .banner-container {
     padding-top: 80px;
@@ -241,7 +240,7 @@ button {
     font-size: 2.6em;
     padding: 0 40px;
     background-color: #111827;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
 
@@ -522,7 +521,6 @@ button {
 }
 
 
-
 /* media queries ********************************************** */
 @media(max-width: 1150px) {
 
@@ -563,7 +561,6 @@ button {
         width: 600px;
     }
 }
-
 
 @media(max-width: 910px) {
     .skill-wrapper {
@@ -628,11 +625,60 @@ button {
 }
 
 @media(max-width: 600px) {
+
+    .banner-container,
+    .navbar-contanier,
+    .separator,
+    .projects-container,
+    .rocket-container,
+    .skills-container {
+        padding: 0 10px;
+    }
+
+    .banner-content h1 {
+        font-size: 2.4em;
+    }
+
     .banner-content {
         width: 100%;
     }
 
+    .projects-h2,
+    .skills-h2 {
+        font-size: 1.8em;
+    }
+
+    .project-wrapper {
+        padding-bottom: 15px;
+    }
+
+    .project {
+        padding: 10px 0;
+    }
+
+    .project-title {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    .project-modal,
+    .skill-modal {
+        padding: 10px;
+    }
+
+    .modal-project-text {
+        margin-top: 0;
+    }
+
     .skill {
         width: 100%;
+    }
+
+    .skill-modal-item-title {
+        font-size: .9em;
+    }
+
+    .skill-modal-item-icons {
+        gap: 2px;
     }
 }
