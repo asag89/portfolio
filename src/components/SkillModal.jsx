@@ -56,11 +56,11 @@ const SkillModal = ({ modalData, setModalType }) => {
                             <h3 className="skill-modal-item-title">{project.title}</h3>
                             <div className="skill-modal-item-icons">
                                 {project.live &&
-                                    <a href={project.live} className="skill-modal-item-btn">
+                                    <a href={project.live} className="skill-modal-item-link">
                                         <BiLink className="skill-modal-item-icon" />
                                     </a>
                                 }
-                                <a href={project.source} className="skill-modal-item-btn">
+                                <a href={project.source} className="skill-modal-item-link">
                                     <FaGithub className="skill-modal-item-icon" />
                                 </a>
                             </div>

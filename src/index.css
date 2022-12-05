@@ -31,9 +31,7 @@ button {
     overflow: hidden;
 }
 
-
 /* navbar ******************************************************************** */
-
 .navbar-contanier {
     width: 100%;
     height: 80px;
@@ -84,8 +82,7 @@ button {
     font-size: 1em;
 }
 
-
-/* banner *************************************************** */
+/* banner ******************************************************** */
 .banner-container {
     padding-top: 80px;
     width: 100%;
@@ -115,6 +112,11 @@ button {
 
 .banner-content h1 {
     font-size: 2.8em;
+    line-height: 1.2;
+}
+
+.banner-content-desc {
+    font-size: 1em;
 }
 
 .banner-img-wrapper {
@@ -136,9 +138,7 @@ button {
     z-index: -99;
 }
 
-
 /* projects ******************************************************************* */
-
 .projects-container {
     width: 100%;
     margin-top: 90px;
@@ -219,8 +219,6 @@ button {
     transform: translateX(-100vw);
 }
 
-
-
 /* skills ******************************************************************* */
 .skills-container {
     width: 100%;
@@ -300,9 +298,7 @@ button {
     font-size: 1.4em;
 }
 
-
 /* modal ******************************************************************* */
-
 .modal-container {
     width: 100%;
     height: 100%;
@@ -322,8 +318,6 @@ button {
     right: 10px;
     cursor: pointer;
 }
-
-
 
 /* project-modal ******************************************************************* */
 .project-modal {
@@ -385,8 +379,6 @@ button {
     text-align: center;
 }
 
-
-
 /* skill-modal ******************************************************************* */
 .skill-modal {
     width: 50%;
@@ -438,14 +430,14 @@ button {
     gap: 8px;
 }
 
-.skill-modal-item-btn {
+.skill-modal-item-link {
     padding: 10px !important;
     border-radius: 50%;
-    line-height: .4;
+    line-height: 0;
     background-color: transparent;
 }
 
-.skill-modal-item-btn:hover {
+.skill-modal-item-link:hover {
     background-color: #111827;
 }
 
@@ -457,7 +449,6 @@ button {
 
 
 /* footer ******************************************************************* */
-
 .footer-container {
     width: 100% !important;
     background-image: url("https://firebasestorage.googleapis.com/v0/b/social-media-v2-19789.appspot.com/o/banner-bg.png?alt=media&token=a5c1216c-1453-41c5-90e7-e4fd03f9f3ad");
@@ -507,6 +498,12 @@ button {
 
 .footer-icon-link {
     padding: 10px;
+    border-radius: 50%;
+    line-height: 0;
+}
+
+.footer-icon-link:hover {
+    background-color: rgba(255, 255, 255, .05);
 }
 
 .footer-icon {
@@ -635,12 +632,31 @@ button {
         padding: 0 10px;
     }
 
+    .nav-item {
+        font-size: .9em;
+    }
+
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo .side>div {
+        width: 8px;
+        height: 8px;
+    }
+
     .banner-content h1 {
-        font-size: 2.4em;
+        padding-top: 20px;
+        font-size: 1.9em;
     }
 
     .banner-content {
         width: 100%;
+    }
+
+    .banner-content-desc {
+        font-size: .8em;
     }
 
     .projects-h2,
@@ -674,11 +690,26 @@ button {
         width: 100%;
     }
 
+    .skill-modal-item {
+        padding: 5px 10px;
+        border-radius: 20px;
+    }
+
     .skill-modal-item-title {
         font-size: .9em;
     }
 
     .skill-modal-item-icons {
         gap: 2px;
+    }
+
+    .skill-modal-item-icon {
+        font-size: 1.3em;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .footer-cp {
+        font-size: .9em;
     }
 }
