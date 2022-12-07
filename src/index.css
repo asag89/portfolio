@@ -88,7 +88,7 @@ button {
     width: 100%;
     height: auto;
     min-height: 100vh;
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/social-media-v2-19789.appspot.com/o/banner-bg.png?alt=media&token=a5c1216c-1453-41c5-90e7-e4fd03f9f3ad');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-2e4cb.appspot.com/o/banner-bg.png?alt=media&token=e7d57085-ea6e-4309-8522-0dfe115e8a71');
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -451,7 +451,7 @@ button {
 /* footer ******************************************************************* */
 .footer-container {
     width: 100% !important;
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/social-media-v2-19789.appspot.com/o/banner-bg.png?alt=media&token=a5c1216c-1453-41c5-90e7-e4fd03f9f3ad");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-2e4cb.appspot.com/o/banner-bg.png?alt=media&token=e7d57085-ea6e-4309-8522-0dfe115e8a71");
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className="footer-container">
             <div className="footer">
-                <motion.img src="https://firebasestorage.googleapis.com/v0/b/social-media-v2-19789.appspot.com/o/astronaut.png?alt=media&token=11249cde-b60d-415b-804b-0b3ac36f5e1c" className="footer-img" alt="astranout" animate={{ y: [0, -10] }} transition={{ duration: 1.5, type: "spring", stiffness: 50, yoyo: Infinity }} />
+                <motion.img src="https://firebasestorage.googleapis.com/v0/b/portfolio-2e4cb.appspot.com/o/astronaut.png?alt=media&token=dbfece8a-06de-4771-a84f-477095c2dec1" className="footer-img" alt="astranout" animate={{ y: [0, -10] }} transition={{ duration: 1.5, type: "spring", stiffness: 50, repeat: Infinity, repeatType: "mirror" }} />
                 <div className="footer-content">
                     <div className="footer-icons">
                         <a href="https://www.linkedin.com/in/abdullah-sag/" rel="noreferrer" className="footer-icon-link" target="_blank">
